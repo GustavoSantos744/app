@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/app_bar.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -8,9 +9,7 @@ class HomePage extends StatelessWidget {
     return  Scaffold(
       
 
-         appBar: AppBar(
-          title: Text('AppBar'),
-         ),
+         
           
 
       );
